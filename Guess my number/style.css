@@ -1,0 +1,127 @@
+*{
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(-45deg, #14EBB7, #39a3ff);
+}
+.container{
+    /* display: none !important; */
+    width: 600px;
+    height: 300px;
+    background-color: #39a3ff;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.377);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+    height: 90%;
+}
+
+.box .image{
+    width: 40%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box .image img{
+    width: 100%;
+}
+
+.box .text{
+    width: 60%;
+    /* height: inherit; */
+}
+
+h3{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin: 0%;
+    margin-bottom: 20px;
+}
+
+.input-box{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: 0ch;
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.button-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button{
+    width: 200px;
+    border: 0ch;
+    height: 30px;
+    border-radius: 5px;
+    background: #ffae4c;
+    letter-spacing: 2px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+
+button:hover{
+    background: #ff160a;
+}
+
+.winContainer{
+    display: none;
+    width: 600px;
+    height: max-content;
+    background-color: #ffae4c;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.377);
+}
+
+.winContainer h3{
+    margin: 0ch;
+    padding: 20px;
+}
+
+
+
+.loseContainer{
+    display: none;
+    width: 600px;
+    height: max-content;
+    background-color: #ff160a;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.377);
+}
+
+.loseContainer h3{
+    margin: 0ch;
+    padding: 20px;
+}

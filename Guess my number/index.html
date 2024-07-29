@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container" id="container">
+        <section class="box">
+            <div class="image">
+                <img src="./image.png" alt="">
+            </div>
+            <div class="text">
+                <h3>Let's Guess The Number Between 1 to 10</h3>
+                <section class="input-box">
+                    <input type="text"  id="number">
+                </section>
+                <section class="button-box">
+                    <button onclick="check()">
+                        Check
+                    </button>
+                </section>
+            </div>
+        </section>
+    </div>
+    <div class="winContainer" id="winContainer">
+        <h3>
+            <span style="color: red;">Congratulation! </span>You Won .....
+        </h3>
+    </div>
+    <div class="loseContainer" id="loseContainer">
+        <h3>
+            <span style="color: rgb(255, 187, 0);">Opps! </span>Try Again .....
+        </h3>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
